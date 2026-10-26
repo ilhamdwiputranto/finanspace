@@ -69,7 +69,3 @@ npm run build
 ```
 
 ---
-
-## 📄 Lisensi
-
-Proyek ini dilisensikan di bawah lisensi [MIT](LICENSE).
