@@ -4,7 +4,7 @@
 
 [![React](https://img.shields.io/badge/React-%2361DAFB.svg?style=for-the-badge&logo=react&logoColor=black)](https://reactjs.org/)
 [![Vite](https://img.shields.io/badge/Vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind_% období-38BDF8.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-%2338BDF8.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 [![PWA](https://img.shields.io/badge/PWA-Enabled-success?style=for-the-badge&logo=pwa&logoColor=white)](https://web.dev/progressive-web-apps/)
 
 ---
@@ -42,30 +42,5 @@ Ikuti langkah-langkah berikut untuk menjalankan proyek ini di komputer Anda:
 
 1. **Clone repositori ini:**
    ```bash
-   git clone https://github.com/username/finanspace.git
+   git clone [https://github.com/username/finanspace.git](https://github.com/username/finanspace.git)
    cd finanspace
-   ```
-
-2. **Instal *dependencies*:**
-   ```bash
-   npm install
-   ```
-
-3. **Jalankan server pengembangan (Development Server):**
-   ```bash
-   npm run dev
-   ```
-
-4. **Buka browser:**
-   Akses `http://localhost:5173` melalui browser Anda.
-
----
-
-## 📦 Build untuk Produksi
-
-Untuk membuat file *build* produksi yang siap di-*deploy*:
-```bash
-npm run build
-```
-
----
