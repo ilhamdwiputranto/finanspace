@@ -1,0 +1,6 @@
+{
+  "name": "FinanSpace - Personal & Family Finance Manager",
+  "description": "Aplikasi pengelola keuangan pribadi & keluarga multi-workspace dengan proteksi PIN, navigasi praktis, pos kategori 2 kolom, pelacak target tabungan, dan analisis finansial cerdas offline-first.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
