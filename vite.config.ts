@@ -1,24 +1,19 @@
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
-import tailwindcss from '@tailwindcss/vite';
-import path from 'path';
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
+import tailwindcss from "@tailwindcss/vite";
+import path from "path";
 
 export default defineConfig({
-  base: '/finanspace/',
-  
-  plugins: [
-    react(), 
-    tailwindcss()
-  ],
-  
+  plugins: [react(), tailwindcss()],
+
   resolve: {
     alias: {
-      '@': path.resolve(__dirname, './src'),
+      "@": path.resolve(__dirname, "./src"),
     },
   },
-  
+
   server: {
-    hmr: process.env.DISABLE_HMR === 'true' ? false : true,
-    watch: process.env.DISABLE_HMR === 'true' ? null : {},
+    hmr: process.env.DISABLE_HMR === "true" ? false : true,
+    watch: process.env.DISABLE_HMR === "true" ? null : {},
   },
 });
