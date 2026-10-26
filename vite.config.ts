@@ -11,7 +11,7 @@ export default defineConfig({
     tailwindcss(),
     VitePWA({
       registerType: "autoUpdate",
-      includeAssets: ["icon.png"],
+      includeAssets: ["icon.png", "screenshot1.png"],
       manifest: {
         name: "FinanSpace",
         short_name: "FinanSpace",
@@ -29,11 +29,13 @@ export default defineConfig({
             type: "image/png",
             purpose: "any maskable",
           },
+        ],
+        screenshots: [
           {
-            src: "/icon.png",
-            sizes: "512x512",
+            src: "/screenshot1.png",
+            sizes: "1280x720",
             type: "image/png",
-            purpose: "any maskable",
+            form_factor: "wide",
           },
         ],
       },
