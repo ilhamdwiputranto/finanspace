@@ -42,5 +42,5 @@ Ikuti langkah-langkah berikut untuk menjalankan proyek ini di komputer Anda:
 
 1. **Clone repositori ini:**
    ```bash
-   git clone [https://github.com/username/finanspace.git](https://github.com/username/finanspace.git)
+   git clone [https://github.com/username/finanspace.git](https://github.com/ilhamdwiputranto/finanspace.git)
    cd finanspace
